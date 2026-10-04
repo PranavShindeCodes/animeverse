@@ -36,7 +36,7 @@
               "duration": "24m",
               "description": "My Name Is Konohamaru! — Episode 2 of the series.",
               "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
-              "videoUrl": ""
+              "videoUrl": "https://res.cloudinary.com/dqpmxs5eh/video/upload/v1791130067/naruto-s01e02-raretoonsindia_0F7rJhy2_hr7jn0.mp4"
             },
             {
               "episode": 3,
@@ -44,7 +44,7 @@
               "duration": "24m",
               "description": "Sasuke and Sakura: Friends or Foes? — Episode 3 of the series.",
               "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
-              "videoUrl": ""
+              "videoUrl": "https://res.cloudinary.com/dqpmxs5eh/video/upload/v1791130818/naruto-s01e03-raretoonsindia_2z9yMm51_u4h04p.mp4"
             },
             {
               "episode": 4,
@@ -52,7 +52,7 @@
               "duration": "24m",
               "description": "Pass or Fail: Survival Test — Episode 4 of the series.",
               "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
-              "videoUrl": ""
+              "videoUrl": "https://res.cloudinary.com/dqpmxs5eh/video/upload/v1791131777/naruto-s01e04-raretoonsindia_kW2qnESX_w4rc2z.mp4"
             },
             {
               "episode": 5,
@@ -227,78 +227,6 @@
               "title": "Episode 26",
               "duration": "24m",
               "description": "Episode 26 — Episode 26 of the series.",
-              "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
-              "videoUrl": ""
-            },
-            {
-              "episode": 27,
-              "title": "Episode 27",
-              "duration": "24m",
-              "description": "Episode 27 — Episode 27 of the series.",
-              "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
-              "videoUrl": ""
-            },
-            {
-              "episode": 28,
-              "title": "Episode 28",
-              "duration": "24m",
-              "description": "Episode 28 — Episode 28 of the series.",
-              "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
-              "videoUrl": ""
-            },
-            {
-              "episode": 29,
-              "title": "Episode 29",
-              "duration": "24m",
-              "description": "Episode 29 — Episode 29 of the series.",
-              "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
-              "videoUrl": ""
-            },
-            {
-              "episode": 30,
-              "title": "Episode 30",
-              "duration": "24m",
-              "description": "Episode 30 — Episode 30 of the series.",
-              "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
-              "videoUrl": ""
-            },
-            {
-              "episode": 31,
-              "title": "Episode 31",
-              "duration": "24m",
-              "description": "Episode 31 — Episode 31 of the series.",
-              "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
-              "videoUrl": ""
-            },
-            {
-              "episode": 32,
-              "title": "Episode 32",
-              "duration": "24m",
-              "description": "Episode 32 — Episode 32 of the series.",
-              "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
-              "videoUrl": ""
-            },
-            {
-              "episode": 33,
-              "title": "Episode 33",
-              "duration": "24m",
-              "description": "Episode 33 — Episode 33 of the series.",
-              "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
-              "videoUrl": ""
-            },
-            {
-              "episode": 34,
-              "title": "Episode 34",
-              "duration": "24m",
-              "description": "Episode 34 — Episode 34 of the series.",
-              "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
-              "videoUrl": ""
-            },
-            {
-              "episode": 35,
-              "title": "Episode 35",
-              "duration": "24m",
-              "description": "Episode 35 — Episode 35 of the series.",
               "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
               "videoUrl": ""
             }
