@@ -79,7 +79,7 @@ export const RemoteModal = () => {
         </div>
 
         <h3 style={{ fontSize: '1.5rem', fontWeight: 800, marginBottom: '0.35rem' }}>
-          AirConsole Remote Control
+          AniConsole Remote Control
         </h3>
         <p style={{ color: 'var(--text-muted)', fontSize: '0.88rem', marginBottom: '1.5rem' }}>
           Scan this QR code with your phone to control this player in real time.
