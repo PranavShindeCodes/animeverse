@@ -1,0 +1,460 @@
+{
+  "anime": [
+    {
+      "id": "solo-leveling",
+      "name": "Solo Leveling",
+      "description": "In a world where hunters, humans with magical powers, battle deadly monsters, a notoriously weak hunter named Sung Jin-woo is granted a miraculous quest that allows him to level up indefinitely, rising from the weakest E-rank to an unstoppable shadow monarch.",
+      "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
+      "banner": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1600&q=85",
+      "genres": ["Action", "Fantasy", "Supernatural", "Adventure"],
+      "status": "Ongoing",
+      "releaseYear": 2024,
+      "rating": 9.4,
+      "studio": "A-1 Pictures",
+      "quality": "4K Ultra HD",
+      "seasons": [
+        {
+          "season": 1,
+          "name": "Season 1: Awakening",
+          "episodes": [
+            {
+              "episode": 1,
+              "title": "I'm Used to It",
+              "duration": "24m",
+              "description": "Jin-woo enters a low-rank dungeon with his raid party, only to discover a terrifying hidden double dungeon sealed inside with godlike statues.",
+              "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            },
+            {
+              "episode": 2,
+              "title": "If I Had One More Chance",
+              "duration": "23m",
+              "description": "Trapped in the Cartenon Temple, the remaining hunters attempt to decipher the commandments of the terrifying Stone God.",
+              "thumbnail": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+            },
+            {
+              "episode": 3,
+              "title": "It's Like a Game",
+              "duration": "24m",
+              "description": "Jin-woo wakes up in a hospital bed to find a floating quest window only he can see, initiating his daily training regimen.",
+              "thumbnail": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+            },
+            {
+              "episode": 4,
+              "title": "I've Gotta Get Stronger",
+              "duration": "24m",
+              "description": "Jin-woo enters an instant dungeon in Hapjeong Station to test his newfound stats against vicious wolf monsters.",
+              "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+            },
+            {
+              "episode": 5,
+              "title": "A Pretty Good Deal",
+              "duration": "25m",
+              "description": "Jin-woo joins Hwang Dong-suk's strike team as dead weight filler to enter a C-Rank dungeon, but betrayal lurks within.",
+              "thumbnail": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
+            },
+            {
+              "episode": 6,
+              "title": "The Real Hunt Begins",
+              "duration": "24m",
+              "description": "Cornered by the treacherous strike squad, the System forces Jin-woo into a brutal life-or-death decision.",
+              "thumbnail": "https://images.unsplash.com/photo-1514533450685-4493e01d1fdc?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyBlazes.mp4"
+            }
+          ]
+        },
+        {
+          "season": 2,
+          "name": "Season 2: Arise from the Shadow",
+          "episodes": [
+            {
+              "episode": 1,
+              "title": "You Aren't E-Rank, Are You?",
+              "duration": "24m",
+              "description": "Sung Jin-woo steps onto the international hunter stage as high rank scouts begin noticing his extraordinary aura.",
+              "thumbnail": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+            },
+            {
+              "episode": 2,
+              "title": "Red Gate Survival",
+              "duration": "24m",
+              "description": "A routine White Tiger training mission takes a catastrophic turn when a gate suddenly transforms into a freezing death zone.",
+              "thumbnail": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+            },
+            {
+              "episode": 3,
+              "title": "Monarch of Shadows",
+              "duration": "25m",
+              "description": "In the depths of the icy throne room, Jin-woo faces the fearsome Ice Elves and summons his first true Shadow Army.",
+              "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jujutsu-kaisen",
+      "name": "Jujutsu Kaisen",
+      "description": "A boy swallows a cursed talisman - the finger of a demon - and becomes cursed himself. He enters a shaman's school to be able to locate the demon's other body parts and exorcise himself.",
+      "thumbnail": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80",
+      "banner": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1600&q=85",
+      "genres": ["Action", "Dark Fantasy", "Supernatural", "Shounen"],
+      "status": "Ongoing",
+      "releaseYear": 2020,
+      "rating": 9.2,
+      "studio": "MAPPA",
+      "quality": "1080p Full HD",
+      "seasons": [
+        {
+          "season": 1,
+          "name": "Season 1: Cursed Womb",
+          "episodes": [
+            {
+              "episode": 1,
+              "title": "Ryomen Sukuna",
+              "duration": "24m",
+              "description": "Yuji Itadori encounters Megumi Fushiguro and makes the fateful choice to ingest a special grade cursed object.",
+              "thumbnail": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            },
+            {
+              "episode": 2,
+              "title": "For Myself",
+              "duration": "24m",
+              "description": "Satoru Gojo takes Yuji to Tokyo Jujutsu High, where the principal tests Yuji's true conviction to protect humanity.",
+              "thumbnail": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+            },
+            {
+              "episode": 3,
+              "title": "Girl of Steel",
+              "duration": "23m",
+              "description": "Yuji and Megumi meet the third first-year student, Nobara Kugisaki, before being dispatched to Roppongi.",
+              "thumbnail": "https://images.unsplash.com/photo-1514533450685-4493e01d1fdc?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+            },
+            {
+              "episode": 4,
+              "title": "Curse Womb Must Die",
+              "duration": "24m",
+              "description": "The first-years face a lethal special grade curse at Eishu Detention Center, forcing Yuji to relinquish control to Sukuna.",
+              "thumbnail": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+            }
+          ]
+        },
+        {
+          "season": 2,
+          "name": "Season 2: Shibuya Incident",
+          "episodes": [
+            {
+              "episode": 1,
+              "title": "Hidden Inventory",
+              "duration": "24m",
+              "description": "In 2006, Gojo and Geto receive a critical mission from Master Tengen to protect the Star Plasma Vessel.",
+              "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+            },
+            {
+              "episode": 2,
+              "title": "Shibuya Incident - Gate Open",
+              "duration": "24m",
+              "description": "On October 31st, a massive curtain drops over Shibuya, trapping thousands of civilians as curses execute their plot.",
+              "thumbnail": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demon-slayer",
+      "name": "Demon Slayer: Kimetsu no Yaiba",
+      "description": "Tanjiro Kamado sets out on a perilous path to avenge his slaughtered family and find a cure to turn his demon-transformed sister Nezuko back into a human.",
+      "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80",
+      "banner": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1600&q=85",
+      "genres": ["Action", "Supernatural", "Historical", "Fantasy"],
+      "status": "Completed",
+      "releaseYear": 2019,
+      "rating": 9.1,
+      "studio": "Ufotable",
+      "quality": "4K Ultra HD",
+      "seasons": [
+        {
+          "season": 1,
+          "name": "Season 1: Unwavering Resolve",
+          "episodes": [
+            {
+              "episode": 1,
+              "title": "Cruelty",
+              "duration": "24m",
+              "description": "Tanjiro returns to his mountain home to discover horrific tragedy and encounters the Water Hashira, Giyu Tomioka.",
+              "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            },
+            {
+              "episode": 2,
+              "title": "Trainer Sakonji Urokodaki",
+              "duration": "24m",
+              "description": "Tanjiro carries Nezuko in a basket and undergoes grueling training on Mt. Sagiri to master Water Breathing.",
+              "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+            },
+            {
+              "episode": 3,
+              "title": "Hinokami",
+              "duration": "25m",
+              "description": "Tanjiro and Nezuko confront Rui of the Twelve Kizuki on Mount Natagumo in an unforgettable breath-taking battle.",
+              "thumbnail": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+            }
+          ]
+        },
+        {
+          "season": 2,
+          "name": "Season 2: Entertainment District",
+          "episodes": [
+            {
+              "episode": 1,
+              "title": "Sound Hashira Tengen Uzui",
+              "duration": "44m",
+              "description": "Tengen Uzui recruits Tanjiro, Zenitsu, and Inosuke for an undercover infiltration deep into Yoshiwara.",
+              "thumbnail": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+            },
+            {
+              "episode": 2,
+              "title": "Never Give Up",
+              "duration": "24m",
+              "description": "The fierce clash against Upper Rank Six Gyutaro and Daki reaches a climax of flashy thunder and flaming blades.",
+              "thumbnail": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frieren-beyond-journey",
+      "name": "Frieren: Beyond Journey's End",
+      "description": "An elf mage and her companions defeat the Demon King, bringing peace to the land. After fifty years pass, she embarks on a new voyage to understand the fragile meaning of human fleeting lives.",
+      "thumbnail": "https://images.unsplash.com/photo-1514533450685-4493e01d1fdc?auto=format&fit=crop&w=600&q=80",
+      "banner": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&w=1600&q=85",
+      "genres": ["Fantasy", "Adventure", "Drama", "Slice of Life"],
+      "status": "Ongoing",
+      "releaseYear": 2023,
+      "rating": 9.5,
+      "studio": "Madhouse",
+      "quality": "4K Ultra HD",
+      "seasons": [
+        {
+          "season": 1,
+          "name": "Season 1: First Class Mage",
+          "episodes": [
+            {
+              "episode": 1,
+              "title": "The Journey's End",
+              "duration": "25m",
+              "description": "After celebrating their victory, Frieren leaves for half a century and returns to find her dear friend Himmel aged with wisdom.",
+              "thumbnail": "https://images.unsplash.com/photo-1514533450685-4493e01d1fdc?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            },
+            {
+              "episode": 2,
+              "title": "It Didn't Have to Be Magic",
+              "duration": "24m",
+              "description": "Frieren mentors Fern in basic spellcasting while collecting eccentric folk magic spells across quaint peaceful villages.",
+              "thumbnail": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+            },
+            {
+              "episode": 3,
+              "title": "The Land Where Souls Rest",
+              "duration": "24m",
+              "description": "Flamme's ancient grimoire reveals the location of Ende, the northernmost kingdom where heaven meets the earth.",
+              "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cyberpunk-edgerunners",
+      "name": "Cyberpunk: Edgerunners",
+      "description": "A street kid trying to survive in a technology and body modification-obsessed city of the future decides to stay alive by becoming an edgerunner: a mercenary outlaw known as a cyberpunk.",
+      "thumbnail": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=600&q=80",
+      "banner": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1600&q=85",
+      "genres": ["Sci-Fi", "Action", "Cyberpunk", "Psychological"],
+      "status": "Completed",
+      "releaseYear": 2022,
+      "rating": 8.9,
+      "studio": "Studio Trigger",
+      "quality": "4K Ultra HD",
+      "seasons": [
+        {
+          "season": 1,
+          "name": "Season 1: Night City Legend",
+          "episodes": [
+            {
+              "episode": 1,
+              "title": "Let You Down",
+              "duration": "24m",
+              "description": "David Martinez endures the harsh economic brutality of Santo Domingo until a sudden drive-by tragedy shatters his life.",
+              "thumbnail": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            },
+            {
+              "episode": 2,
+              "title": "Like a Boy",
+              "duration": "24m",
+              "description": "Equipped with a military-grade Sandevistan cyberware spine, David crosses paths with mysterious netrunner Lucy on a metro train.",
+              "thumbnail": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+            },
+            {
+              "episode": 3,
+              "title": "Smooth Criminal",
+              "duration": "25m",
+              "description": "Maine invites David to prove his worth on a high-stakes corporate data heist against Arasaka executives.",
+              "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "attack-on-titan",
+      "name": "Attack on Titan",
+      "description": "After his hometown is destroyed and his mother is killed, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
+      "thumbnail": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=600&q=80",
+      "banner": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1600&q=85",
+      "genres": ["Action", "Drama", "Mystery", "Dark Fantasy"],
+      "status": "Completed",
+      "releaseYear": 2013,
+      "rating": 9.0,
+      "studio": "Wit Studio / MAPPA",
+      "quality": "1080p Full HD",
+      "seasons": [
+        {
+          "season": 1,
+          "name": "Season 1: Fall of Shiganshina",
+          "episodes": [
+            {
+              "episode": 1,
+              "title": "To You, in 2000 Years",
+              "duration": "24m",
+              "description": "A colossal titan appears out of thin air and breaches Wall Maria, shattering a century of fragile peace.",
+              "thumbnail": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            },
+            {
+              "episode": 2,
+              "title": "That Day",
+              "duration": "24m",
+              "description": "Eren, Mikasa, and Armin enlist in the 104th Training Corps to master the Omni-Directional Mobility Gear.",
+              "thumbnail": "https://images.unsplash.com/photo-1514533450685-4493e01d1fdc?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+            }
+          ]
+        },
+        {
+          "season": 2,
+          "name": "Season 2: Clash of the Titans",
+          "episodes": [
+            {
+              "episode": 1,
+              "title": "Beast Titan",
+              "duration": "24m",
+              "description": "Titans are spotted within Wall Rose, and a strange talking furred beast emerges from the wilderness.",
+              "thumbnail": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chainsaw-man",
+      "name": "Chainsaw Man",
+      "description": "Denji is a teenage boy living with a Chainsaw Devil named Pochita. When betrayed by the yakuza, he makes a contract to be reborn as a devil-human hybrid known as Chainsaw Man.",
+      "thumbnail": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&w=600&q=80",
+      "banner": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=1600&q=85",
+      "genres": ["Action", "Supernatural", "Horror", "Comedy"],
+      "status": "Ongoing",
+      "releaseYear": 2022,
+      "rating": 8.7,
+      "studio": "MAPPA",
+      "quality": "1080p Full HD",
+      "seasons": [
+        {
+          "season": 1,
+          "name": "Season 1: Public Safety Devil Hunter",
+          "episodes": [
+            {
+              "episode": 1,
+              "title": "Dog & Chainsaw",
+              "duration": "24m",
+              "description": "Denji lives in poverty paying off his deceased father's debts before merging with Pochita during an ambush.",
+              "thumbnail": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            },
+            {
+              "episode": 2,
+              "title": "Arrival in Tokyo",
+              "duration": "24m",
+              "description": "Makima introduces Denji to Aki Hayakawa and partners him with the wild Blood Fiend, Power.",
+              "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spy-x-family",
+      "name": "SPY x FAMILY",
+      "description": "A master spy known as Twilight must fabricate an undercover family for his mission, unaware that his chosen wife is a deadly assassin and his adopted daughter is a telepath who reads minds.",
+      "thumbnail": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80",
+      "banner": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1600&q=85",
+      "genres": ["Comedy", "Action", "Slice of Life", "Shounen"],
+      "status": "Ongoing",
+      "releaseYear": 2022,
+      "rating": 8.8,
+      "studio": "CloverWorks / Wit Studio",
+      "quality": "1080p Full HD",
+      "seasons": [
+        {
+          "season": 1,
+          "name": "Season 1: Operation Strix",
+          "episodes": [
+            {
+              "episode": 1,
+              "title": "Operation Strix",
+              "duration": "24m",
+              "description": "Agent Twilight adopts Anya from a run-down orphanage to prepare for entrance into prestigious Eden Academy.",
+              "thumbnail": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            },
+            {
+              "episode": 2,
+              "title": "Secure a Wife",
+              "duration": "24m",
+              "description": "Loid Forger meets Yor Briar at a dressmaker boutique as both need a partner for high-stakes social events.",
+              "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=500&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
