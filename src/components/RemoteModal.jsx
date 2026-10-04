@@ -1,16 +1,28 @@
 import React, { useState } from 'react';
 import { QRCodeSVG } from 'qrcode.react';
 import { useRemoteSession } from '../context/RemoteSessionContext';
-import { 
-  Smartphone, 
-  X, 
-  Copy, 
-  Check, 
-  ExternalLink, 
-  Sparkles, 
-  Wifi, 
-  WifiOff 
+import {
+  Smartphone,
+  X,
+  Copy,
+  Check,
+  ExternalLink,
+  Sparkles,
+  Wifi,
+  WifiOff
 } from 'lucide-react';
+
+const PROD_FRONTEND_URL = 'https://animeversee-chi.vercel.app';
+
+const getFrontendBaseUrl = () => {
+  if (import.meta.env.VITE_FRONTEND_URL) {
+    return import.meta.env.VITE_FRONTEND_URL.replace(/\/$/, '');
+  }
+  if (typeof window !== 'undefined' && window.location.origin && !window.location.origin.includes('localhost') && !window.location.origin.includes('127.0.0.1')) {
+    return window.location.origin.replace(/\/$/, '');
+  }
+  return PROD_FRONTEND_URL;
+};
 
 export const RemoteModal = () => {
   const { sessionId, isRemoteConnected, isModalOpen, closeModal, isSocketConnected } = useRemoteSession();
@@ -18,9 +30,8 @@ export const RemoteModal = () => {
 
   if (!isModalOpen) return null;
 
-  const remoteUrl = typeof window !== 'undefined' && sessionId
-    ? `${window.location.origin}/remote/${sessionId}`
-    : '';
+  const frontendBase = getFrontendBaseUrl();
+  const remoteUrl = sessionId ? `${frontendBase}/remote/${sessionId}` : '';
 
   const handleCopyUrl = async () => {
     if (!remoteUrl) return;
@@ -35,7 +46,7 @@ export const RemoteModal = () => {
 
   return (
     <div className="mobile-menu-overlay" onClick={closeModal} style={{ zIndex: 1000, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      <div 
+      <div
         className="remote-modal-card"
         onClick={(e) => e.stopPropagation()}
         style={{
@@ -75,7 +86,7 @@ export const RemoteModal = () => {
         </p>
 
         {/* QR Code Container */}
-        <div 
+        <div
           style={{
             background: '#ffffff',
             padding: '1.25rem',
@@ -86,7 +97,7 @@ export const RemoteModal = () => {
           }}
         >
           {remoteUrl ? (
-            <QRCodeSVG 
+            <QRCodeSVG
               value={remoteUrl}
               size={190}
               level="M"
@@ -110,10 +121,10 @@ export const RemoteModal = () => {
         </div>
 
         {/* Real-time Connection Status Indicator */}
-        <div 
-          style={{ 
-            display: 'inline-flex', 
-            alignItems: 'center', 
+        <div
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
             gap: '0.5rem',
             padding: '0.45rem 1rem',
             borderRadius: '20px',
@@ -122,15 +133,15 @@ export const RemoteModal = () => {
             marginBottom: '1.5rem'
           }}
         >
-          <span 
-            style={{ 
-              width: '8px', 
-              height: '8px', 
-              borderRadius: '50%', 
+          <span
+            style={{
+              width: '8px',
+              height: '8px',
+              borderRadius: '50%',
               background: isRemoteConnected ? '#10b981' : '#fbbf24',
               boxShadow: isRemoteConnected ? '0 0 10px #10b981' : '0 0 8px #fbbf24',
               animation: isRemoteConnected ? 'none' : 'pulseGlow 1.5s infinite'
-            }} 
+            }}
           />
           <span style={{ fontSize: '0.85rem', fontWeight: 600, color: isRemoteConnected ? '#6ee7b7' : '#fcd34d' }}>
             {isRemoteConnected ? '● Phone Connected' : '○ Waiting for phone...'}

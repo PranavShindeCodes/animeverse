@@ -3,15 +3,55 @@ import { createServer } from 'http';
 import { Server } from 'socket.io';
 import cors from 'cors';
 
+const allowedOrigins = [
+  'https://animeversee-chi.vercel.app',
+  'http://localhost:3000',
+  'http://localhost:5173',
+  'http://127.0.0.1:3000',
+  'http://127.0.0.1:5173'
+];
+
+if (process.env.FRONTEND_URL) {
+  allowedOrigins.push(process.env.FRONTEND_URL.replace(/\/$/, ''));
+}
+if (process.env.CLIENT_URL) {
+  allowedOrigins.push(process.env.CLIENT_URL.replace(/\/$/, ''));
+}
+
+const isOriginAllowed = (origin) => {
+  if (!origin) return true;
+  if (allowedOrigins.includes(origin)) return true;
+  if (origin.endsWith('.vercel.app')) return true;
+  if (process.env.NODE_ENV !== 'production') return true;
+  return false;
+};
+
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: (origin, callback) => {
+    if (isOriginAllowed(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('CORS not allowed for this origin: ' + origin));
+    }
+  },
+  credentials: true,
+  methods: ['GET', 'POST', 'OPTIONS']
+}));
 app.use(express.json());
 
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: {
-    origin: '*',
-    methods: ['GET', 'POST']
+    origin: (origin, callback) => {
+      if (isOriginAllowed(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error('CORS not allowed for Socket.IO origin: ' + origin));
+      }
+    },
+    methods: ['GET', 'POST'],
+    credentials: true
   }
 });
 
@@ -52,6 +92,16 @@ export function generateSessionId() {
   }
   return result;
 }
+
+// Root status endpoint
+app.get('/', (req, res) => {
+  res.json({
+    name: 'AnimeVerse Remote Control Server',
+    status: 'online',
+    activeSessions: sessions.size,
+    timestamp: Date.now()
+  });
+});
 
 // Health check endpoint
 app.get('/health', (req, res) => {

@@ -1,16 +1,10 @@
 import { io } from 'socket.io-client';
 
-export const getSocketUrl = () => {
-  if (import.meta.env.VITE_SOCKET_URL) {
-    return import.meta.env.VITE_SOCKET_URL;
-  }
-  
-  if (typeof window !== 'undefined') {
-    // Connect directly through Vite / origin proxy or direct port
-    return window.location.origin;
-  }
+const DEFAULT_BACKEND_URL = 'https://anime-backend-2-hhen.onrender.com';
 
-  return 'http://localhost:3000';
+export const getSocketUrl = () => {
+  const url = import.meta.env.VITE_SOCKET_URL || DEFAULT_BACKEND_URL;
+  return url.replace(/\/$/, '');
 };
 
 /**
@@ -24,7 +18,7 @@ export const createSocketConnection = () => {
     reconnectionAttempts: Infinity,
     reconnectionDelay: 1000,
     reconnectionDelayMax: 5000,
-    timeout: 10000
+    timeout: 20000
   });
 
   socket.on('connect_error', (err) => {
