@@ -107,7 +107,8 @@
               "title": "Episode 11",
               "duration": "24m",
               "description": "Episode 11 — Episode 11 of the series.",
-              "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80"
+              "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
+              "videoUrl": ""
             },
             {
               "episode": 12,
